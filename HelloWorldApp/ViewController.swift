@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     }
     
     override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillAppear(animated)
+        super.viewWillDisappear(animated)
         print("viewWillDisappear")
     }
         
@@ -42,8 +42,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    
-    func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "d"
         {
             if let destinationVC = segue.destination as? ViewController2 {

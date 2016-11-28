@@ -54,6 +54,9 @@
                                 <rect key="frame" x="170" y="318" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="rUC-2W-1Jj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -82,4 +85,7 @@
             <point key="canvasLocation" x="104.8" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="rUC-2W-1Jj"/>
+    </inferredMetricsTieBreakers>
 </document>
