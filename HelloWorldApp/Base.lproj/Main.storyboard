@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HelloWorldApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HelloWorldApp" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -26,8 +26,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Move to next screen"/>
                                 <connections>
-                                    <action selector="moveToNextScreenAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cvf-ve-DSw"/>
-                                    <segue destination="TFR-Cm-a17" kind="show" id="bJn-VU-zhA"/>
+                                    <segue destination="TFR-Cm-a17" kind="show" id="ueE-zT-hqX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -42,7 +41,7 @@
         <!--View Controller2-->
         <scene sceneID="ZNQ-te-Qq6">
             <objects>
-                <viewController id="TFR-Cm-a17" customClass="ViewController2" customModule="HelloWorldApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="TFR-Cm-a17" customClass="ViewController2" customModule="HelloWorldApp" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nbE-sy-KMx"/>
                         <viewControllerLayoutGuide type="bottom" id="MZH-bW-6Vp"/>
